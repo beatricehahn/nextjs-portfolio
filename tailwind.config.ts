@@ -38,6 +38,9 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
+        hero: {
+          DEFAULT: "#979AD0"
+        },
         blue: {
           "100": "#E4ECFF",
         },
@@ -161,7 +164,7 @@ const config = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       backgroundImage: {
-        'black-fluid-pattern': "url('../public/black-bg.png')"
+        'black-fluid-pattern': "url('../public/images/black-bg.png')"
       }
     },
   },
