@@ -37,6 +37,7 @@ const config = {
           DEFAULT: "#FFF",
           100: "#BEC1DD",
           200: "#C1C2D3",
+          800: "#4e4d4f"
         },
         hero: {
           DEFAULT: "#979AD0"
