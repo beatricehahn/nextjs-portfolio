@@ -6,16 +6,20 @@ import { ShimmerButton } from './ui/ShimmerButton'
 
 const Hero = () => {
   return (
-    <div id='hero-container' className='bg-hero rounded-lg mb-10 flex items-end justify-center mt-[1.4rem]'>
+    <div id='hero-container' className=' overflow-hidden bg-hero rounded-lg mb-10 flex items-center justify-center mt-[1.4rem]'>
         <div id='hero-content' className='mb-10'>
-          <img src="/images/hero-portrait.svg" alt="portrait illustration" />
+          <img 
+            src="/images/hero-portrait.svg" 
+            alt="portrait illustration"
+            className='object-cover w-[50%] h-full' 
+          />
           <div id='hero-header'>
             <TextGenerateEffect 
               className='text-center text-[40px] md:text-5xl lg:text-9xl text-black-100'
               words="Beatrice Hahn"
             />
             <TextGenerateEffect 
-              className='text-center text-[20px] md:text-2xl lg:text-4xl text-black-100'
+              className='text-center text-[20px] text-black-100'
               words="PRODUCT DESIGNER & DEVELOPER"
             />
             <p className='text-white'>Specializing in interactive storytelling and motion design</p>
