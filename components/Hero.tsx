@@ -9,7 +9,7 @@ const Hero = () => {
     <div id='hero-container' className=' overflow-hidden bg-hero rounded-lg mb-10 flex items-center justify-center mt-[1.4rem]'>
         <div id='hero-content' className='mb-10'>
           <img 
-            src="/images/hero-portrait.svg" 
+            src="/images/hero-portrait.png" 
             alt="portrait illustration"
             className='object-cover w-[50%] h-full' 
           />
