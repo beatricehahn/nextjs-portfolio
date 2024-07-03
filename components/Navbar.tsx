@@ -24,7 +24,8 @@ export const Navbar = () => {
                 "p-10",
                 "left-0",
                 "gap-10",
-                "flex-col"
+                "flex-col",
+                "isolate"
             ]
         }
         // if menu is closed 
@@ -36,9 +37,9 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="sticky z-20 top-0 w-full back-blur text-black-100 p-4 sm:p-6 md:flex md:justify-between md:items-center">
+        <nav className="bg-transparent mix-blend-difference sticky z-20 top-2 w-full p-4 sm:p-3 md:flex md:justify-between md:items-center">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="/" className="text-2xl font-bold">
+                <a href="/" className="text-clip-inverse text:xl md:text-2xl lg:text-2xl font-bold">
                     Beatrice Hahn
                 </a>
                 <div className={getMenuClasses()}>
@@ -53,9 +54,13 @@ export const Navbar = () => {
                     </Link>
                 </div>
 
-                <div className=" flex items-center">
+                <div className="isolate flex items-center">
                     <button onClick={toggleMenu}> 
-                        <img src="/images/menu-icon.svg" alt="menu" />
+                        <img 
+                            src="/images/menu-icon.svg"
+                            alt="menu"
+                            className='sm:w-4 sm:h-auto md:w-6 md:h-auto lg:w-6 lg:h-auto' 
+                        />
                     </button>
                 </div>
             </div>
