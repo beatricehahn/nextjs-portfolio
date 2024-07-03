@@ -36,7 +36,7 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="sticky absolute z-20 top-4 absolute w-full back-blur text-black-100 p-4 sm:p-6 md:flex md:justify-between md:items-center">
+        <nav className="sticky z-20 top-0 w-full back-blur text-black-100 p-4 sm:p-6 md:flex md:justify-between md:items-center">
             <div className="container mx-auto flex justify-between items-center">
                 <a href="/" className="text-2xl font-bold">
                     Beatrice Hahn

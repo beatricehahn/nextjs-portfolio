@@ -8,11 +8,18 @@ const Hero = () => {
   return (
     <div id='hero-container' className='bg-hero rounded-lg mb-10 flex items-end justify-center mt-[1.4rem]'>
         <div id='hero-content' className='mb-10'>
-            <div id='hero-header'>
-                <h1 className='text-white'>Beatrice Hahn</h1>
-                <h3 className='text-white'>PRODUCT DESIGNER & DEVELOPER</h3>
-            </div>
+          <img src="/images/hero-portrait.svg" alt="portrait illustration" />
+          <div id='hero-header'>
+            <TextGenerateEffect 
+              className='text-center text-[40px] md:text-5xl lg:text-9xl text-black-100'
+              words="Beatrice Hahn"
+            />
+            <TextGenerateEffect 
+              className='text-center text-[20px] md:text-2xl lg:text-4xl text-black-100'
+              words="PRODUCT DESIGNER & DEVELOPER"
+            />
             <p className='text-white'>Specializing in interactive storytelling and motion design</p>
+          </div>
         </div>
     </div>
     // <div className='pb-20 pt-36'>
