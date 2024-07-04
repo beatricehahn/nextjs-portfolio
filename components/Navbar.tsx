@@ -19,13 +19,13 @@ export const Navbar = () => {
                 "flex",
                 "absolute",
                 "top-[60px]",
-                "bg-gray-200",
+                "bg-white",
                 "w-full",
                 "p-10",
                 "left-0",
                 "gap-10",
                 "flex-col",
-                "isolate"
+                "isolate",
             ]
         }
         // if menu is closed 
@@ -37,19 +37,19 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="bg-transparent mix-blend-difference sticky z-20 top-2 w-full p-4 sm:p-3 md:flex md:justify-between md:items-center">
+        <nav className="mix-blend-difference bg-transparent sticky z-20 top-2 w-full p-4 sm:p-3 md:flex md:justify-between md:items-center">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="/" className="text-clip-inverse text:xl md:text-2xl lg:text-2xl font-bold">
+                <a href="/" className="text-white text:xl md:text-2xl lg:text-2xl font-bold">
                     Beatrice Hahn
                 </a>
                 <div className={getMenuClasses()}>
-                    <Link href='/about' className="mx-2 hover:text-gray-300">
+                    <Link href='#about' className="mx-2 hover:text-gray-300">
                         About
                     </Link>
-                    <Link href="/work" className="mx-2 hover:text-gray-300">
+                    <Link href="#work" className="mx-2 hover:text-gray-300">
                         Work
                     </Link>
-                    <Link href="/contact" className="mx-2 hover:text-gray-300">
+                    <Link href="#contact" className="mx-2 hover:text-gray-300">
                         Contact
                     </Link>
                 </div>
@@ -57,9 +57,9 @@ export const Navbar = () => {
                 <div className="isolate flex items-center">
                     <button onClick={toggleMenu}> 
                         <img 
-                            src="/images/menu-icon.svg"
+                            src="/images/menu-icon.png"
                             alt="menu"
-                            className='sm:w-4 sm:h-auto md:w-6 md:h-auto lg:w-6 lg:h-auto' 
+                            className='isolate sm:w-4 sm:h-auto md:w-6 md:h-auto lg:w-6 lg:h-auto' 
                         />
                     </button>
                 </div>
