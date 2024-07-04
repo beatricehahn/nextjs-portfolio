@@ -16,7 +16,7 @@ const Hero = () => {
             className='object-cover w-full h-full md:w-[80%]' 
           />
           <div id='hero-header' className='absolute inset-0 flex flex-col items-center justify-center z-10'>
-            <h1 className=' text-white text-[40px] md:text-5xl lg:text-7xl'>
+            <h1 className='font-bold text-white text-6xl md:text-7xl lg:text-8xl'>
               BEATRICE HAHN
             </h1>
             <TextGenerateEffect 
