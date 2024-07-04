@@ -1,9 +1,10 @@
 import { projects } from '@/data/index';
 import { PinContainer } from './ui/PinContainer';
+import ProjectBox from './molecules/ProjectBox';
 
 const RecentProjects = () => {
   return (
-    <div className="text-white-100 py-10">
+    <div id="work" className="text-white-100 py-10">
         <h1 className="heading">
             A small selection of {' '}
             <span className="text-purple">recent projects</span>
@@ -17,6 +18,7 @@ const RecentProjects = () => {
                 </div>
             ))}
         </div>
+        <ProjectBox />
     </div>
   )
 }
