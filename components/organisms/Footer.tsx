@@ -3,9 +3,10 @@ import { FooterItem } from "../molecules/FooterItem"
 export const Footer = () => {
   return (
     <footer className="bg-black w-full pt-20" id="footer-content-wrapper">
-        <div className='flex flex-col md:flex-row md:justify-around lg:flex-row lg:justify-around'>
+        <div className='flex flex-col m-8 md:flex-row md:justify-around lg:flex-row lg:justify-around'>
           <ul className='mt-[32px] mb-[32px] sm:mb-[64px]' id='navigation-links'>
             <h6 className='text-white font-bold'>MENU</h6>
+            <li className="mt-[12px]"><a href="/" className='text-white-200'>Home</a></li>
             <li className="mt-[12px]"><a href="/about" className='text-white-200'>About</a></li>
             <li className="mt-[12px]"><a href="/work" className='text-white-200'>Work</a></li>
             <li className="mt-[12px]"><a href="/contact" className='text-white-200'>Contact</a></li>
