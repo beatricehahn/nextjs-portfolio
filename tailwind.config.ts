@@ -170,6 +170,7 @@ const config = {
     },
   },
   plugins: [
+    require('@tailwindcss/forms'),
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
