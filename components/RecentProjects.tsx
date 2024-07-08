@@ -8,14 +8,13 @@ const RecentProjects = () => {
             A selection of {' '}
             <span className="text-purple">recent works</span>
         </h1>
-        <div className="flex flex-col items-center justify-between p-4 gap-16 mt-10">
-            {projects.map(( { id, genre, title, des, img, tags }) => (
-                <div key={id} className=' flex items-center justify-center sm:w-96'>
+        <div
+            className="grid sm:grid-col-1 p-4 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
+            {projects.map(( { id, genre, title, img, tags }) => (
+                <div key={id} className=''>
                     <ProjectBox 
-                        id={id}
                         genre={genre}
                         title={title}
-                        des={des}
                         img={img}
                         tags={tags}
                     />
