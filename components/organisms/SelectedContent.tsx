@@ -1,5 +1,5 @@
 import RecentProjects from "../RecentProjects"
-import AboutBlock from "../Aboutblock"
+import AboutBlock from "../AboutBlock"
 import Contact from "./Contact"
 import QuoteBlock from "../QuoteBlock"
 
