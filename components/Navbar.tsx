@@ -43,16 +43,13 @@ export const Navbar = () => {
                     Beatrice Hahn
                 </a>
                 <div className={getMenuClasses()}>
-                    <Link href='/' className="mx-2 hover:text-gray-300">
-                        HOME
+                    <Link href="#works" className="mx-2 hover:text-gray-300">
+                        WORKS
                     </Link>
-                    <Link href='/about' className="mx-2 hover:text-gray-300">
+                    <Link href='#about' className="mx-2 hover:text-gray-300">
                         ABOUT
                     </Link>
-                    <Link href="/work" className="mx-2 hover:text-gray-300">
-                        WORK
-                    </Link>
-                    <Link href="/contact" className="mx-2 hover:text-gray-300">
+                    <Link href="#contact" className="mx-2 hover:text-gray-300">
                         CONTACT
                     </Link>
                 </div>
