@@ -15,6 +15,7 @@ const Input = ({ id, name, label, placeholder, ...props } : InputProps) => {
             id={id} 
             name={name} 
             placeholder={placeholder}
+            required
             { ...props}
             className='w-full text-gray-900 placeholder-gray-40 border-gray-500 border-opacity-50 focus:ring-2 focus:ring-purple rounded-md'
         />

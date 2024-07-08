@@ -1,7 +1,23 @@
+"use client"
 import Input from "@/components/atoms/Input";
 import MessageBox from "@/components/atoms/MessageBox";
+import { FormEvent } from 'react';
 
-export default function Contact() {
+export default function DeprecatedContact() {
+    async function onSubmit(event: FormEvent<HTMLFormElement>) {
+        event.preventDefault();
+
+        const formData = new FormData(event.currentTarget);
+        const response = await fetch('/api/send', {
+            method: 'POST',
+            body: formData
+        });
+
+        const data = await response.json();
+
+
+    }
+
     return (
         <div>
             <div>
@@ -14,24 +30,24 @@ export default function Contact() {
                 <br/>
             </div>
             <div className='px-3 pt-10'>
-                <form action="" className="flex flex-col items-center w-1/3 mx-auto">
+                <form onSubmit={onSubmit} action="" className="flex flex-col items-center w-1/3 mx-auto">
                     <Input 
                         id="name" 
                         name="name" 
                         placeholder="Jane Doe" 
-                        label="Name"
+                        label="Name (*)"
                     />
                     <Input 
                         id="email" 
                         name="email" 
                         placeholder="janedoe@gmail.com" 
-                        label="Email" 
+                        label="Email (*)" 
                     />
                     <MessageBox 
                         id="message" 
                         name="message" 
                         placeholder="Describe the vision for your project, goals and timelines, budget, etc. " 
-                        label="Your Message"
+                        label="About your project (*)"
                     />
                     <button className='w-full py-2 mt-6 text-lg text-white bg-white-800 active:bg-black-200 rounded-md focus:ring-2 focus:ring-purple disabled:bg-opacity-50 disabled:cursor-not-allowed' type="submit">Submit</button>
                 </form>
