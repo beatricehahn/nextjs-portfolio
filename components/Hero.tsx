@@ -17,7 +17,7 @@ const Hero = () => {
             </h1>
             <h4 className='text-xl font-bold'>PRODUCT DESIGNER & DEVELOPER</h4>
             <p className='text-white'>Specializing in visual storytelling and motion design</p>
-            <button className='mt-8 p-2 rounded-md bg-black-100 text-white-200'><a href="#works">View My Work</a></button>
+            <button className='mt-2 p-2 rounded-md bg-black-100 text-white-200'><a href="#works">View My Work</a></button>
           </div>
         </div>
     </div>
