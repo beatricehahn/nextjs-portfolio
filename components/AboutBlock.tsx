@@ -6,7 +6,7 @@ const AboutBlock = () => {
             className="w-[50%] h-auto mx-auto mb-20"
             src="/images/bw-photo.png" alt="Portrait" 
         />
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
             <p className="mb-8">I’m a <strong>product designer</strong> and <strong>web developer</strong> based in California who approaches life and work like sculpting clay. I’ve worked on diverse projects ranging from the field of non-profit, healthcare, everyday-living, and games.
             </p>
             <p className="mb-8">
