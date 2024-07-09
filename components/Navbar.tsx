@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import '../public/styles/Menu.css'
 
@@ -11,6 +11,14 @@ export const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+
+    useEffect(() => {
+        if (isOpen) {
+          document.body.classList.add('overflow-hidden');
+        } else {
+          document.body.classList.remove('overflow-hidden');
+        }
+      }, [isOpen]);
 
     function getMenuClasses() {
         let menuClasses = [];
@@ -28,12 +36,10 @@ export const Navbar = () => {
                 "justify-center",
                 "align-items",
             ];
-            document.body.classList.add("overflow-y-hidden");
         }
         // if menu is closed 
         else {
             menuClasses = [ "hidden", "flex"];
-            document.body.classList.remove("overflow-y-hidden");
         }
 
         return menuClasses.join(" ")
