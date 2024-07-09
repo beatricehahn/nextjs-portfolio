@@ -17,39 +17,42 @@ export const Navbar = () => {
         if (isOpen) {
             menuClasses = [
                 "flex",
-                "absolute",
-                "top-[60px]",
+                "fixed",
+                "inset-0",
+                "top-[35px]",
                 "bg-white",
-                "w-full",
-                "p-10",
+                "p-20",
                 "left-0",
                 "gap-10",
                 "flex-col",
-                "isolate",
-            ]
+                "justify-center",
+                "align-items",
+            ];
+            document.body.classList.add("overflow-y-hidden");
         }
         // if menu is closed 
         else {
-            menuClasses= [ "hidden", "flex"]
+            menuClasses = [ "hidden", "flex"];
+            document.body.classList.remove("overflow-y-hidden");
         }
 
         return menuClasses.join(" ")
     }
 
     return (
-        <nav className="mix-blend-difference bg-transparent sticky z-20 top-2 w-full p-4 sm:p-3 md:flex md:justify-between md:items-center">
+        <nav className="bg-white sticky z-20 top-0 w-full p-2 mb-2 md:flex md:justify-around md:items-center">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="/" className="text-white text:xl md:text-2xl lg:text-2xl font-bold">
+                <a href="/" className="text:xl md:text-2xl lg:text-2xl font-bold">
                     Beatrice Hahn
                 </a>
                 <div className={getMenuClasses()}>
-                    <Link href="#works" className="mx-2 hover:text-gray-300">
+                    <Link href="#works" className="text-4xl mx-2 hover:text-gray-300 font-bold" onClick={toggleMenu}>
                         WORKS
                     </Link>
-                    <Link href='#about' className="mx-2 hover:text-gray-300">
+                    <Link href='#about' className="text-4xl mx-2 hover:text-gray-300 font-bold" onClick={toggleMenu}>
                         ABOUT
                     </Link>
-                    <Link href="#contact" className="mx-2 hover:text-gray-300">
+                    <Link href="#contact" className="text-4xl mx-2 hover:text-gray-300 font-bold" onClick={toggleMenu}>
                         CONTACT
                     </Link>
                 </div>
