@@ -1,10 +1,6 @@
-import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-//import { MagicButton } from './ui/MagicButton'
-import { ShimmerButton } from './ui/ShimmerButton'
 
 import '../public/styles/Menu.css'
-
 
 const Hero = () => {
   return (
