@@ -3,8 +3,8 @@ import { FooterItem } from "../molecules/FooterItem"
 export const Footer = () => {
   return (
     <footer className="bg-black w-full pt-2" id="footer-content-wrapper">
-        <div className='flex justify-between m-2'>
-          <ul className='mt-[32px] mb-[32px] sm:mb-[64px]' id='navigation-links'>
+        <div className='flex justify-start m-10'>
+          <ul className='mt-[32px] mb-[32px] mr-[32px] w-[50%]' id='navigation-links'>
             <h6 className='text-white font-bold'>MENU</h6>
             <li className="mt-[12px]"><a href="#works" className='text-white-200'>Works</a></li>
             <li className="mt-[12px]"><a href="#about" className='text-white-200'>About</a></li>
@@ -17,12 +17,10 @@ export const Footer = () => {
             <li className="mt-[12px]"><a href="https://github.com/beatricehahn" className='text-white-200'>Github</a></li>
           </ul>
         </div>
-        <div className='mt-[32px] mb-0 flex flex-col justify-center m-2' id='copyright-and-details'>
-            <span className='text-white-800'>2024 &copy; Beatrice Hahn</span>
-            <br/>
-            <span className='text-white-800'>Product Designer & Developer</span>
-            <br/>
-            <span className='text-white-800 mb-2'>Portfolio designed in Figma, developed in Next.JS</span>
+        <div className='mt-[32px] mb-0 flex flex-col md:flex-row justify-center m-10' id='copyright-and-details'>
+            <span className='text-white-800 p-4'>2024 &copy; Beatrice Hahn</span>
+            <span className='text-white-800 p-4'>Product Designer & Developer</span>
+            <span className='text-white-800 p-4'>Portfolio designed in Figma, developed in Next.JS</span>
         </div>
     </footer>
   )
