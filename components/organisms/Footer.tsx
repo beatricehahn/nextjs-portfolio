@@ -13,7 +13,6 @@ export const Footer = () => {
           <ul className='mt-[32px] mb-[32px]' id='social-links'>
             <h6 className='text-white font-bold'>SOCIAL</h6>
             <li className="mt-[12px]"><a href="https://www.linkedin.com/in/beatrice-hahn/" className='text-white-200'>LinkedIn</a></li>
-            <li className="mt-[12px]"><a href="https://www.instagram.com/777lemonades/" className='text-white-200'>Instagram</a></li>
             <li className="mt-[12px]"><a href="https://github.com/beatricehahn" className='text-white-200'>Github</a></li>
           </ul>
         </div>
