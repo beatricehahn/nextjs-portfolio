@@ -9,10 +9,10 @@ const ProjectBox = (
           <img 
             src={img}
             alt='Project Picture'
-            className=""
+            className="rounded-[24px]"
           />
           <div className="m-2 mix-blend-difference">
-            <span className="text-sm mb-1 text-white-200">{genre}</span>
+            <span className="text-[14px] mb-1 text-white-200">{genre}</span>
             <h6 className='text-lg font-bold mb-2'>{title}</h6>
             {tags.map((tag) => (
               <Tag label={tag} />
