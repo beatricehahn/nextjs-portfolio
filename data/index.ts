@@ -89,6 +89,7 @@ export const articles = [
     category: "Informational",
     genre: "Music Industry",
     title: "Why musicians and artists still benefit from a personal website in 2024",
+    link:'#',
     img: "/images/work-img-placeholder.png",
   },
   {
@@ -97,6 +98,7 @@ export const articles = [
     category: "UX Proposal",
     genre: "Music Industry & E-commerce",
     title: "Fixing St. Vincent's accessibility and ux issues when buying band merchandise",
+    link:'#',
     img: "/images/work-img-placeholder.png",
   },
   {
@@ -105,6 +107,7 @@ export const articles = [
     category: "Self Reflection",
     genre: "Game Development & Product Design",
     title: "How a year of game development taught me to be a better product designer",
+    link:'#',
     img: "/images/work-img-placeholder.png",
   },
 ]
