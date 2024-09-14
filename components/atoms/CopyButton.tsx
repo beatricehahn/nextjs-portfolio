@@ -18,13 +18,13 @@ const CopyButton = ( { link } : { link: string }) => {
                 type="text" 
                 value={link} 
                 readOnly 
-                className='font-semibold text-white-100 border-gray-500 bg-transparent border-3 border-opacity-80 focus:ring-2 focus:ring-purple rounded-md'
+                className='font-semibold text-purple-bright border-white-200 bg-white border-2 border-opacity-70 focus:ring-2 focus:ring-purple rounded-[8px]'
             />
             <button 
                 onClick={copyToClipboard}
-                className='rounded-md ml-2 p-2 bg-purple'
+                className='rounded-[8px] ml-[16px] px-[16px] py-[10px] bg-purple-bright text-white'
             >
-                {copied ? 'Copied!' : 'Copy'}
+                {copied ? 'Copied!' : 'Copy Address'}
             </button>
         </div>
     )

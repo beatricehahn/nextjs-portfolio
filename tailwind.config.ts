@@ -46,11 +46,11 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: {
-          dark: "#2E1875",
+          DEFAULT: "#2E1875",
           bright: "#825CFF"
         },
         special: {
-          creme: "#FEF5EA",
+          DEFAULT: "#FEF5EA",
           candyfloss: "#FFEDFA",
           lavanderwhip: "#FAF5FF",
           coldsteel: "#E3EDF8",
