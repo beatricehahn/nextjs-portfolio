@@ -29,9 +29,9 @@ export const Navbar = () => {
                 "fixed",
                 "z-10",
                 "inset-0",
-                "height-full",
+                "h-full",
                 "bg-white",
-                "top-10",
+                "top-20",
                 "p-20",
                 "left-0",
                 "flex-col",
@@ -49,20 +49,20 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="bg-white sticky z-20 top-0 py-4 mb-4 mx-[16px] md:mx-20 height-[32px] md:height-[64px] lg:height-[88px]">
-            <div className="flex justify-between items-center">
-                <a href="/" className="text-[16px] md:text-[20px] lg:text-[32px] font-bold">Beatrice Hahn</a>
+        <nav className="bg-white top-0 z-20 py-4 mb-4 mx-[16px] md:mx-20 height-[24px] md:height-[32px] lg:height-[64px]">
+            <div className="flex justify-between items-center w-full">
+                <a href="/" className="text-[16px] md:text-[16px] lg:text-[20px] font-bold">Beatrice Hahn</a>
                 <button onClick={toggleMenu} className='sm:hidden'> 
                     {isOpen ? <CloseIcon /> : <HamburgerIcon />}
                 </button>
                 <div className='hidden sm:flex space-x-[24px]'>
-                    <Link href="/#works" className="block md:text-[18px] lg:text-[24px] font-semi-bold">
+                    <Link href="/#works" className="block md:text-[16px] lg:text-[20px] font-semi-bold">
                         WORK
                     </Link>
-                    <Link href='/about' className="block md:text-[18px] lg:text-[24px] font-semi-bold">
+                    <Link href='/about' className="block md:text-[16px] lg:text-[20px] font-semi-bold">
                         ABOUT
                     </Link>
-                    <Link href="/#contact" className="block md:text-[18px] lg:text-[24px] font-semi-bold">
+                    <Link href="/#contact" className="block md:text-[16px] lg:text-[20px] font-semi-bold">
                         CONTACT
                     </Link>
                 </div>
