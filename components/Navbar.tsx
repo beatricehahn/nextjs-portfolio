@@ -55,7 +55,7 @@ export const Navbar = () => {
                 <button onClick={toggleMenu} className='sm:hidden'> 
                     {isOpen ? <CloseIcon /> : <HamburgerIcon />}
                 </button>
-                <div className='hidden sm:flex space-x-[24px] p-[24px]'>
+                <div className='hidden sm:flex space-x-[24px]'>
                     <Link href="#works" className="block md:text-[18px] lg:text-[24px] font-semi-bold">
                         WORK
                     </Link>
@@ -67,13 +67,13 @@ export const Navbar = () => {
                     </Link>
                 </div>
                 <div id='dropdown-content' className={getMenuClasses()}>
-                    <Link href="#works" className="text-4xl mx-20 text-center hover:text-gray-300 font-bold" onClick={toggleMenu}>
+                    <Link href="#works" className="text-4xl p-[20px] text-center hover:text-gray-300 font-bold" onClick={toggleMenu}>
                         WORK
                     </Link>
-                    <Link href='#about' className="text-4xl mx-20 text-center hover:text-gray-300 font-bold" onClick={toggleMenu}>
+                    <Link href='#about' className="text-4xl p-[20px] text-center hover:text-gray-300 font-bold" onClick={toggleMenu}>
                         ABOUT
                     </Link>
-                    <Link href="#contact" className="text-4xl mx-20 text-center hover:text-gray-300 font-bold" onClick={toggleMenu}>
+                    <Link href="#contact" className="text-4xl p-[20px] text-center hover:text-gray-300 font-bold" onClick={toggleMenu}>
                         CONTACT
                     </Link>
                 </div>
