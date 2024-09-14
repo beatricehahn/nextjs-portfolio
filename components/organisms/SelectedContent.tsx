@@ -6,13 +6,11 @@ import QuoteBlock from "../QuoteBlock"
 
 export const SelectedContent = () => {
   return (
-      <div className="bg-black-fluid-pattern bg-cover w-screen h-auto">
-        {/* <img src="/images/purplish-gradient-bg.png" alt="" className=" z-[-1] h-auto"/> */}
+      <div className="flex-col justify-center">
         <RecentProjects />
         <Articles />
-        <AboutBlock />
-        <Contact />
         <QuoteBlock />
+        <Contact />
       </div>
   )
 }
