@@ -28,15 +28,15 @@ const config = {
     extend: {
       colors: {
         black: {
-          DEFAULT: "#000",
+          DEFAULT: "#2F2F2F",
           100: "#000319",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
         },
         white: {
-          DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          DEFAULT: "#FEFEFE",
+          100: "#EEF2F7",
+          200: "#DDE3EC",
           800: "#4e4d4f"
         },
         hero: {
@@ -45,7 +45,18 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple: {
+          dark: "#2E1875",
+          bright: "#825CFF"
+        },
+        special: {
+          creme: "#FEF5EA",
+          candyfloss: "#FFEDFA",
+          lavanderwhip: "#FAF5FF",
+          coldsteel: "#E3EDF8",
+          mojitofreeze: "#F4FFED",
+          cloudwhisp: "#E7F6FF",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
