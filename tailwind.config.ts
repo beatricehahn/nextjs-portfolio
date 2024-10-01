@@ -46,11 +46,12 @@ const config = {
           DEFAULT: "#979AD0"
         },
         blue: {
-          "100": "#E4ECFF",
+          "100": "#EFF5FA",
+          "800": "#0A2540",
         },
         purple: {
           DEFAULT: "#2E1875",
-          bright: "#825CFF"
+          bright: "#635BFF"
         },
         special: {
           DEFAULT: "#FEF5EA",
