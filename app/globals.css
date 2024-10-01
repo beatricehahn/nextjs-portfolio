@@ -88,3 +88,45 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+h1 {
+  font-family: var(--font-clash);
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+}
+
+h2 {
+  font-family: var(--font-clash);
+  font-weight: 600;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: var(--font-clash);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: var(--font-clash);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: var(--font-clash);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+h6 {
+  font-family: var(--font-clash);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+p {
+  font-family: var(--font-clash);
+  font-weight: 400;
+}

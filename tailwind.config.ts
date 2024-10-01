@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        clash:["var(--font-clash"]
+      },
       colors: {
         black: {
           DEFAULT: "#2F2F2F",
