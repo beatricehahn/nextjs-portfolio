@@ -13,21 +13,21 @@ const ProjectBox = (
             className="rounded-[16px] w-full aspect-[4/3]"
           /> */}
           <div className='rounded-[16px] w-full aspect-[4/3] bg-blue-100'></div>
-          <div className="m-2 w-full">
-            <span className="text-[14px] md:text-[16px] mb-1">{genre}</span>
-            <h3 className='text-[16px] md:text-[20px] mb-2'>{title}</h3>
+          <div className="w-full mb-[24px] mt-[8px]">
+            <span className="text-[14px] md:text-[16px]">{genre}</span>
+            <h3 className='text-[16px] md:text-[20px] mt-[4px]'>{title}</h3>
             {/* {tags.map((tag) => (
               <Tag label={tag} />
             ))} */}
           </div>
           <a 
-              href="/casestudyurl"
-              className="py-[10px] px-[24px] bg-purple-bright rounded-[8px]"
-            >
-              <span className="text-[20px] text-white">Read Case Study</span>
-              <div className="ml-[10px] inline">
-                <RightArrow />
-              </div>
+            href="/casestudyurl"
+            className="mt-[12px] py-[12px] px-[24px] bg-purple-bright rounded-[8px]"
+          >
+            <span className="text-base md:text-[20px] text-white">Read Case Study</span>
+            <div className="ml-[10px] inline">
+              <RightArrow />
+            </div>
           </a>
       </div>
     </div>
