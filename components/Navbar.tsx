@@ -49,20 +49,20 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="bg-white top-0 z-20 py-4 mb-4 mx-[16px] md:mx-20 height-[24px] md:height-[32px] lg:height-[64px]">
-            <div className="flex justify-between items-center w-full">
-                <a href="/" className="text-[16px] md:text-[16px] lg:text-[20px] font-medium">Beatrice Hahn</a>
+        <nav className="bg-white top-0 z-20 py-4 mb-4 height-[24px] md:height-[32px] lg:height-[64px]">
+            <div className="flex justify-between items-center max-w-screen-lg mx-auto px-4">
+                <a href="/" className="text-sm">BEATRICE HAHN</a>
                 <button onClick={toggleMenu} className='sm:hidden'> 
                     {isOpen ? <CloseIcon /> : <HamburgerIcon />}
                 </button>
                 <div className='hidden sm:flex space-x-[24px]'>
-                    <Link href="/#works" className="block md:text-[16px] lg:text-[20px] font-medium">
+                    <Link href="/#works" className="block text-sm">
                         WORK
                     </Link>
-                    <Link href='/about' className="block md:text-[16px] lg:text-[20px] font-medium">
+                    <Link href='/about' className="block text-sm">
                         ABOUT
                     </Link>
-                    <Link href="/#contact" className="block md:text-[16px] lg:text-[20px] font-medium">
+                    <Link href="/#contact" className="block text-sm">
                         CONTACT
                     </Link>
                 </div>

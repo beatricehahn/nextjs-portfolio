@@ -5,7 +5,7 @@ import { SelectedContent } from "@/components/organisms/SelectedContent";
 
 export default function Home() {
   return (
-    <main className="relative flex justify-center items-center flex-col mx-[24px] md:mx-20">
+    <main className="max-w-screen-lg mx-auto px-4">
       <Hero2 />
       <IntroCards />
       <SelectedContent />

@@ -125,4 +125,6 @@ h6 {
 
 p {
   font-weight: 400;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
