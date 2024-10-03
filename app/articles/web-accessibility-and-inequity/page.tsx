@@ -4,8 +4,8 @@ export default function WebAccessibility() {
     const { title, subtitle, date, content, sources } = writing[0];
 
     return (
-        <div className="mx-[24px] md:mx-20">
-            <h1 className="">{title}</h1>
+        <div className="max-w-screen-md mx-auto px-4">
+            <h1 className="text-2xl md:text-3xl pb-[24px]">{title}</h1>
             <h4>{subtitle}</h4>
             <h6>Written on {date} by Beatrice Hahn</h6>
             <div>
