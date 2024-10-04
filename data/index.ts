@@ -43,9 +43,9 @@ export const projects = [
     title: "Redesigning 'React DX Telepatch Cardiac Monitoring App' to accomodate symptom-tracking for patients with hectic schedules",
     des: "Mobile app redesign to accomodate cardiac symptom-tracking for busy lives",
     img: "/images/work-img-placeholder.png",
-    link: "/",
+    link: "/work/reactdx",
     tags: ["new UX solution", "accessibility", "visual feedback", "updated UI", "integrating existing brand identity"],
-    year: "2024"
+    year: "2024",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const projects = [
     title: "How competitive analysis informed my design choices for 'DIGITAL EXORCIST: A game about phishing attacks'",
     des: "UX screenflow of educational mobile game in development",
     img: "/images/work-img-placeholder.png",
-    link: "/",
+    link: "/work/digitalexorcist",
     tags: ["UX proposal", "competitive analysis", "UI research"],
     year: "2024"
   },
@@ -65,7 +65,7 @@ export const projects = [
     title: "UI Design of Weingart Center's Employee Portal Dashboard To Manage Veteran Adoption Applications",
     des: "A design for an employee dashboard",
     img: "/images/work-img-placeholder.png",
-    link: "/",
+    link: "/work/weingartdashboard",
     tags: ["UI", "integrating existing brand identity", "data table representation"],
     year: "2023"
   },
@@ -76,7 +76,7 @@ export const projects = [
     title: "CONFISTAND Health Monitor for Patients with Orthostatic Hypotension: Designing for a startup product",
     des: "Health monitoring app for users who can monitor their vitals and recieve notifications if they are at risk of fainting",
     img: "/images/work-img-placeholder.png",
-    link: "/",
+    link: "/work/confistanapp",
     tags: ["UI", "data visualization", "startup team collaboration"],
     year: "2023"
   },
