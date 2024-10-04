@@ -2,7 +2,7 @@ import Tag from "../atoms/Tag";
 import RightArrow from "../atoms/RightArrow";
 
 const ProjectBox = (
-  { genre, title, img, tags } : { genre : string, title : string, img : string, tags : string[] }
+  { genre, title, img, tags, workLink } : { genre : string, title : string, img : string, tags : string[], workLink: string }
 ) => {
   return (
     <div className="my-[32px] md:my-4 flex flex-col md:flex-row md:items-start md:justify-between items-center">
@@ -21,7 +21,7 @@ const ProjectBox = (
             ))} */}
           </div>
           <a 
-            href="/casestudyurl"
+            href={workLink}
             className="mt-[12px] py-[12px] px-[24px] bg-purple-bright rounded-[8px]"
           >
             <span className="text-base md:text-[20px] text-white">Read Case Study</span>
