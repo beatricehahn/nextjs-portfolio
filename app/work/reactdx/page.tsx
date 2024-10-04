@@ -6,7 +6,8 @@ export default function Reactdx() {
     return (
         <div className="max-w-screen-lg mx-auto px-[18px]">
             <CaseHeader 
-            
+                imageSrc="/images/work-img-placeholder.png"
+                title="React DX Mobile UI Redesign"
             />
             <CaseContext 
                 brand="React Diagnostics"
@@ -15,7 +16,12 @@ export default function Reactdx() {
                 timeline="August-September 2024"
             />
             <CaseSnapshot 
-            
+                businessSrc="/"
+                userSrc="/"
+                solutionSrc="/"
+                businessProblem=""
+                userProblem=""
+                solution=""
             />
         </div>
     )
