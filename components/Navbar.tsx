@@ -27,17 +27,15 @@ export const Navbar = () => {
         if (isOpen) {
             menuClasses = [
                 "fixed",
-                "z-10",
+                "z-5",
                 "inset-0",
-                "h-full",
+                "my-auto",
                 "bg-white",
-                "top-20",
-                "p-20",
+                "top-[40px]",
                 "left-0",
                 "flex-col",
                 "flex",
-                "justify-center",
-                "align-items",
+                "justify-center"
             ];
         }
         // if menu is closed 
@@ -49,8 +47,8 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="bg-white top-0 z-20 py-4 mb-4 height-[24px] md:height-[32px] lg:height-[64px]">
-            <div className="flex justify-between items-center max-w-screen-lg mx-auto px-4">
+        <nav className="bg-white top-0 z-20 py-[18px] mb-[48px] height-[24px] md:height-[32px] lg:height-[64px]">
+            <div className="flex justify-between items-center max-w-screen-lg mx-auto px-[18px]">
                 <a href="/" className="text-sm">BEATRICE HAHN</a>
                 <button onClick={toggleMenu} className='sm:hidden'> 
                     {isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -67,13 +65,13 @@ export const Navbar = () => {
                     </Link>
                 </div>
                 <div id='dropdown-content' className={getMenuClasses()}>
-                    <Link href="/#works" className="text-4xl p-[20px] text-center hover:text-gray-300 font-semibold" onClick={toggleMenu}>
+                    <Link href="/#works" className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
                         WORK
                     </Link>
-                    <Link href='/about' className="text-4xl p-[20px] text-center hover:text-gray-300 font-semibold" onClick={toggleMenu}>
+                    <Link href='/about' className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
                         ABOUT
                     </Link>
-                    <Link href="/#contact" className="text-4xl p-[20px] text-center hover:text-gray-300 font-semibold" onClick={toggleMenu}>
+                    <Link href="/#contact" className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
                         CONTACT
                     </Link>
                 </div>
