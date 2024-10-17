@@ -179,9 +179,6 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
-      backgroundImage: {
-        'black-fluid-pattern': "url('../public/images/black-bg.png')"
-      }
     },
   },
   plugins: [
