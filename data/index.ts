@@ -69,17 +69,17 @@ export const projects = [
     tags: ["UI", "integrating existing brand identity", "data table representation"],
     year: "2023"
   },
-  {
-    id: 4,
-    genre: "Startup Medical Device",
-    category: "Mobile App",
-    title: "CONFISTAND Health Monitor for Patients with Orthostatic Hypotension: Designing for a startup product",
-    des: "Health monitoring app for users who can monitor their vitals and recieve notifications if they are at risk of fainting",
-    img: "/images/work-img-placeholder.png",
-    link: "/work/confistanapp",
-    tags: ["UI", "data visualization", "startup team collaboration"],
-    year: "2023"
-  },
+  // {
+  //   id: 4,
+  //   genre: "Startup Medical Device",
+  //   category: "Mobile App",
+  //   title: "CONFISTAND Health Monitor for Patients with Orthostatic Hypotension: Designing for a startup product",
+  //   des: "Health monitoring app for users who can monitor their vitals and recieve notifications if they are at risk of fainting",
+  //   img: "/images/work-img-placeholder.png",
+  //   link: "/work/confistanapp",
+  //   tags: ["UI", "data visualization", "startup team collaboration"],
+  //   year: "2023"
+  // },
 ];
 
 export const articles = [
