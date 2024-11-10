@@ -79,6 +79,10 @@
   button {
     @apply active:outline-none;
   }
+
+  p {
+    @apply text-[16px] sm:text-[18px]
+  }
 }
 
 @layer utilities {
@@ -127,4 +131,17 @@ p {
   font-weight: 400;
   padding-top: 12px;
   padding-bottom: 12px;
+  font-size: 
+}
+
+.custom-casecontext {
+  h6 {
+    @apply text-[15px];
+    @apply text-purple-bright;
+  }
+  p {
+    @apply text-[14px];
+    @apply py-[8px]
+  }
+  @apply flex ;
 }
