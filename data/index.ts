@@ -83,24 +83,24 @@ export const projects = [
 ];
 
 export const articles = [
-  {
-    id: 1,
-    date: "August 3, 2024",
-    category: "Informational",
-    genre: "Music, Art",
-    title: "Why musicians and artists still benefit from a personal website in 2024",
-    link:'#',
-    img: "/images/work-img-placeholder.png",
-  },
-  {
-    id: 2,
-    date: "July 28, 2024",
-    category: "UX Proposal",
-    genre: "E-Commerce, Music",
-    title: "Fixing St. Vincent's accessibility and ux issues when buying band merchandise",
-    link:'#',
-    img: "/images/work-img-placeholder.png",
-  },
+  // {
+  //   id: 1,
+  //   date: "August 3, 2024",
+  //   category: "Informational",
+  //   genre: "Music, Art",
+  //   title: "Why musicians and artists still benefit from a personal website in 2024",
+  //   link:'#',
+  //   img: "/images/work-img-placeholder.png",
+  // },
+  // {
+  //   id: 2,
+  //   date: "July 28, 2024",
+  //   category: "UX Proposal",
+  //   genre: "E-Commerce, Music",
+  //   title: "Fixing St. Vincent's accessibility and ux issues when buying band merchandise",
+  //   link:'#',
+  //   img: "/images/work-img-placeholder.png",
+  // },
   {
     id: 3,
     date: "January 17, 2024",
