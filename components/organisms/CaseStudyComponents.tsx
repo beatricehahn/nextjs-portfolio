@@ -23,16 +23,18 @@ interface CaseSnapshotProps {
 
 export const CaseHeader = ({ imageSrc, title="title" }: CaseHeaderProps) => {
     return (
-        <div className="bg-blue-100 relative w-screen mx-[-50vw] left-[50%]">
-            <img className="" src={imageSrc} alt={`${title} project image`} />
-            <h1>{title}</h1>
+        <div className="">
+            <div>
+                {/* <img className="" src={imageSrc} alt={`${title} project image`} /> */}
+                <h1>{title}</h1>
+            </div>
         </div>
     );
 };
 
 export const CaseContext = ({ brand="Company/Group Name", role="role name", industry="genre", timeline="month-month year" } : CaseContextProps) => {
     return (
-        <div className="flex space-x-4 space-y-4">
+        <div className="custom-casecontext">
             <div>
                 <h6>Brand</h6>
                 <p>{brand}</p>
@@ -57,20 +59,22 @@ export const CaseSnapshot = ({ businessSrc, userSrc, solutionSrc, businessProble
     return (
         <div>
             <h4>Case Study Snapshot</h4>
-            <div>
-                <img className="" src={businessSrc} alt="Business problem icon" />
-                <h6>Business Problem</h6>
-                <p>{businessProblem}</p>
-            </div>
-            <div>
-                <img className="" src={businessSrc} alt="Business problem icon"  />
-                <h6>User Problem</h6>
-                <p>{userProblem}</p>
-            </div>
-            <div>
-                <img className="" src={businessSrc} alt="Business problem icon"  />
-                <h6>Solution</h6>
-                <p>{solution}</p>
+            <div className="custom-casecontext">
+                <div className="t">
+                    <img className="" src={businessSrc} alt="Business problem icon" />
+                    <h6>Business Problem</h6>
+                    <p className="">{businessProblem}</p>
+                </div>
+                <div className="">
+                    <img className="" src={businessSrc} alt="Business problem icon"  />
+                    <h6>User Problem</h6>
+                    <p>{userProblem}</p>
+                </div>
+                <div className="">
+                    <img className="" src={businessSrc} alt="Business problem icon"  />
+                    <h6>Solution</h6>
+                    <p>{solution}</p>
+                </div>
             </div>
         </div>
     )
