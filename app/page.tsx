@@ -3,11 +3,16 @@ import { Hero2 } from "@/components/Hero2";
 import IntroCards from "@/components/molecules/IntroCards";
 import { SelectedContent } from "@/components/organisms/SelectedContent";
 
+import { Simple } from "@/components/animations/sample-animation";
+
 export default function Home() {
   return (
     <main className="max-w-screen-lg mx-auto px-[18px]">
       <Hero2 />
-      <IntroCards />
+      {/* <IntroCards /> */}
+      <div className="w-full h-[300px]">
+        <Simple />
+      </div>
       <SelectedContent />
     </main>
   );
