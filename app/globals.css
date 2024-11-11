@@ -122,16 +122,15 @@ h5 {
   font-size: 16px;
 }
 
-h6 {
+/* h6 {
   font-weight: 500;
   font-size: 12px;
-}
+} */
 
 p {
   font-weight: 400;
   padding-top: 12px;
   padding-bottom: 12px;
-  font-size: 
 }
 
 .custom-casecontext {
