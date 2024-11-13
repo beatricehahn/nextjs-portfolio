@@ -42,21 +42,23 @@ export const projects = [
     category: "Mobile App",
     title: "Redesigning 'React DX Telepatch Cardiac Monitoring App' to accomodate symptom-tracking for patients with hectic schedules",
     des: "Mobile app redesign to accomodate cardiac symptom-tracking for busy lives",
-    img: "/images/work-img-placeholder.png",
+    imgSrc: "/images/project-img/sample-work-thumbnail.png",
     link: "/work/reactdx",
-    tags: ["new UX solution", "accessibility", "visual feedback", "updated UI", "integrating existing brand identity"],
+    tags: ["Accessibility", "UX audit", "UI Redesign", "Brand Identity Integration"],
     year: "2024",
+    color: "#"
   },
   {
     id: 2,
-    genre: "Education & Gaming",
+    genre: "eLearning & Game Design",
     category: "Mobile Game",
     title: "How competitive analysis informed my design choices for 'DIGITAL EXORCIST: A game about phishing attacks'",
     des: "UX screenflow of educational mobile game in development",
-    img: "/images/work-img-placeholder.png",
+    imgSrc: "/images/project-img/sample-work-thumbnail.png",
     link: "/work/digitalexorcist",
-    tags: ["UX proposal", "competitive analysis", "UI research"],
-    year: "2024"
+    tags: ["Information Architecture", "Competitive Analysis", "UI Research"],
+    year: "2024",
+    color: "#"
   },
   {
     id: 3,
@@ -64,10 +66,11 @@ export const projects = [
     category: "Desktop SaaS",
     title: "UI Design of Weingart Center's Employee Portal Dashboard To Manage Veteran Adoption Applications",
     des: "A design for an employee dashboard",
-    img: "/images/work-img-placeholder.png",
+    imgSrc: "/images/project-img/sample-work-thumbnail.png",
     link: "/work/weingartdashboard",
-    tags: ["UI", "integrating existing brand identity", "data table representation"],
-    year: "2023"
+    tags: ["User Research", "UI Design", "Technical Specs"],
+    year: "2023",
+    color: "#"
   },
   // {
   //   id: 4,
@@ -105,7 +108,7 @@ export const articles = [
     id: 3,
     date: "January 17, 2024",
     category: "Self Reflection",
-    genre: "Design",
+    genre: "Design & Project Management",
     title: "How a year of game development taught me to be a better product designer",
     link:'#',
     img: "/images/work-img-placeholder.png",
