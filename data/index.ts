@@ -110,7 +110,7 @@ export const articles = [
     category: "Self Reflection",
     genre: "Design & Project Management",
     title: "How a year of game development taught me to be a better product designer",
-    link:'#',
+    link:'/articles/what-game-dev-taught-me-about-design',
     img: "/images/work-img-placeholder.png",
   },
   {
