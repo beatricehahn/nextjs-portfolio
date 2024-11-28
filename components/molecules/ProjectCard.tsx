@@ -6,8 +6,8 @@ const ProjectCard = (
   { genre, title, imgSrc, tags, link } : { genre : string, title : string, imgSrc : string, tags : string[], link: string }
 ) => {
   return (
-    <div className="mt-[32px] p-8 flex flex-col border-2 sm:flex-row items-center bg-gradient-to-r from-special-candyfloss to-special-coldsteel shadow-lg w-full rounded-[24px] sticky top-4 mb-4">
-      <div id='projectDescription' className="mb-8 md:w-[50%]">
+    <div className="mt-[32px] p-8 flex flex-col border-2 sm:flex-row items-center bg-gradient-to-r from-special-candyfloss to-special-coldsteel shadow-lg w-full rounded-[24px] mb-4">
+      <div id='projectDescription' className="mb-8">
         <span className="text-[14px] md:text-[16px]">{genre}</span>
         <h3 className='text-[16px] md:text-[20px] my-2'>{title}</h3>
         {/* <div className='flex flex-wrap mb-4'>
