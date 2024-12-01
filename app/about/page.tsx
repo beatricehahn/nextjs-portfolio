@@ -1,4 +1,5 @@
 import Image from "next/image";
+import IntroCards from "@/components/molecules/IntroCards";
 
 export default function About() {
     return (
@@ -16,6 +17,7 @@ export default function About() {
                     alt="Picture of Beatrice Hahn"
                 />
             </div>
+            <IntroCards />
             <section className="flex flex-col md:flex-row">
                 <h2 className="md:text-xl md:flex-1">My Design and Development Ideals</h2> 
                 <div className="md:flex-1">
