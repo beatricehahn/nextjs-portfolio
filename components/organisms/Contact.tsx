@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
         <div>
           <Image className="inline mr-[8px]" src="/icons/linkedin-white.svg" alt="email icon" width={20} height={20} />
-          <span className="text-white">Reach out on </span>
+          <span className="text-white">Or Let's connect on </span>
           <a href="https://www.linkedin.com/in/beatrice-hahn/" target="_blank" className="text-white underline">
             LinkedIn
             <Image className="inline" src="/icons/slanted-arrow-white.svg" alt="diagonal arrow" width={22} height={22} />
