@@ -62,7 +62,10 @@ export const Navbar = () => {
                     <Link href='/about' className="block text-sm md:text-base">
                         ABOUT
                     </Link>
-                    <Link href="/#contact" className="block text-sm md:text-base">
+                    <Link href='/#articles' className="block text-sm md:text-base">
+                        ARTICLES
+                    </Link>
+                    <Link href="/contact" className="block text-sm md:text-base">
                         CONTACT
                     </Link>
                 </div>
@@ -73,7 +76,10 @@ export const Navbar = () => {
                     <Link href='/about' className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
                         ABOUT
                     </Link>
-                    <Link href="/#contact" className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
+                    <Link href='/#articles' className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
+                        ARTICLES
+                    </Link>
+                    <Link href="/contact" className="text-4xl p-[20px] text-center hover:text-purple-bright font-semibold" onClick={toggleMenu}>
                         CONTACT
                     </Link>
                 </div>
