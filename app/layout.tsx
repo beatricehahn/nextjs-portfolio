@@ -68,7 +68,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={ `${clash.variable} inter.className` }>
+      <body className={ `${clash.variable} inter.className tracking-[0.09em]` }>
         <Navbar />
         {children}
         <Footer />
