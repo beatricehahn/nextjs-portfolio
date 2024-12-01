@@ -11,7 +11,7 @@ export const Footer = () => {
             <li className="mt-[12px]"><a href="/#works" className='text-white-200'>Work</a></li>
             <li className="mt-[12px]"><a href="/#articles" className='text-white-200'>Articles</a></li>
             <li className="mt-[12px]"><a href="/about" className='text-white-200'>About</a></li>
-            <li className="mt-[12px]"><a href="/#contact" className='text-white-200'>Contact</a></li>
+            <li className="mt-[12px]"><a href="/contact" className='text-white-200'>Contact</a></li>
           </ul>
           <ul className='mt-[32px] mb-[32px] mr-[32px]' id='navigation-links'>
             <h6 className='text-white tracking-[0.2em]'>CASE STUDIES</h6>
